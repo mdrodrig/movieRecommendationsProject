@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comedy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <!--Link for star rating-->
+    <script src="https://kit.fontawesome.com/a4e85127e8.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  <!--NAV-->
+    <section class="genreHeader">
+      <nav id="container">
+        <a href="index.html"><img src="Images/Pick'n'FlixLogo.png" alt="Pick'n'FlixLogo" id="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li class="mainLinks"><a href="index.html">Home</a></li>
+                <li class="mainLinks"><a href="index.html">About</a></li>
+                <li class="mainLinks"><a href="topMovies.html" class="top10s">Genres</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <header>
+        <h2 class="genreTitle">Top 10 Comedy Movies</h2>
+    </header>
+  </section>
+
+<!--JS for responsive menu-->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right = "0";
+  }
+  function hideMenu(){
+      navLinks.style.right = "-200px";
+  }
+</script>
+
+  <!--main content-->
+
+    <section class="genreSection">
+    
+    <!--First Movie-->
+    <button type="button" class="collapsible">1. Free Guy <i class="fas fa-chevron-down"></i></button>
+    <div class="content">
+      <h3>Free Guy</h3>
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="https://i.ytimg.com/vi/N2R2bjxjcS0/movieposter_en.jpg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/X2m-08cOAbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>When a bank teller discovers he's actually a background player in an open-world video game, he decides to become the hero of his own story -- one that he can rewrite himself. In a world where there's no limits, he's determined to save the day his way before it's too late, and maybe find a little romance with the coder who conceived him.</p>
+
+      </div>
+
+      <!--Second Movie-->
+      <button type="button" class="collapsible">2. Bad Trip <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Bad Trip</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://upload.wikimedia.org/wikipedia/en/6/68/Bad_Trip_poster.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/UjT9I6eb4p8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+        
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Hidden cameras capture two best friends pulling hilarious and inventive pranks on an unsuspecting public during a wild road trip.</p></h4>
+       
+      </div>
+      
+      <!--Third Movie-->
+      <button type="button" class="collapsible">3. Afterlife of the Party <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Afterlife of the Party</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://occ-0-3743-2433.1.nflxso.net/dnm/api/v6/Da_vleYcahiCE7JMYt8LJRyoenc/AAAABc8_WOuatN8leCa2QyOS2BILDHL09gdFy3yw_4AkTtd-QJ0N27EeJNGaR-HHp2N_lWPUwEy1quhSuA38gksR6IudUZAX_4nMZEXg76waJT5XlSwd7jmmJRCHymkYQQ.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/kFIbSnJ9tQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>Cassie lives to party... until she dies in a freak accident. Now this social butterfly needs to right her wrongs on Earth if she wants to earn her wings.</p></h4>
+        </div>
+      
+      <!--Fourth Movie-->
+      <button type="button" class="collapsible">4. Jungle Cruise <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Jungle Cruise</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://www.moviepostersgallery.com/wp-content/uploads/2021/08/Junglecruise3.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/f_HvoipFcA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>After the death of their father, three young girls find themselves in abject poverty. The responsibility to provide for the family lands on the oldest sisters, who are also dealing with heartbreaks.</p>
+       </div>
+      
+      <!--Fifth Movie-->
+      <button type="button" class="collapsible">5. Cruella <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Cruella</h3>
+
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="https://lumiere-a.akamaihd.net/v1/images/p_cruella_21672_ba40c762.jpeg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/jpZrVxvG3mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Estella is a young and clever grifter who's determined to make a name for herself in the fashion world. She soon meets a pair of thieves who appreciate her appetite for mischief, and together they build a life for themselves on the streets of London. However, when Estella befriends fashion legend Baroness von Hellman, she embraces her wicked side to become the raucous and revenge-bent Cruella.</p></h4>
+      </div>
+      
+      <!--Sixth Movie-->
+      <button type="button" class="collapsible">6. We're the Millers <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>We're the Millers</h3>
+        
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src=https://flxt.tmsimg.com/assets/p9742380_p_v10_ai.jpg alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/0Vsy5KzsieQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>David, a drug dealer, is forced by his boss to smuggle drugs from Mexico. He hires a stripper, a petty thief and a teenage neighbour and forms a fake family to help him smuggle the drugs.</p>
+        </div>
+      
+      <!--Seventh Movie-->
+      <button type="button" class="collapsible">7. Red Notice <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Red Notice</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/Pj0wz7zu3Ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>In the world of international crime, an Interpol agent attempts to hunt down and capture the world's most wanted art thief.</p>
+         </div>
+      
+      <!--Eight Movie-->
+      <button type="button" class="collapsible">8. Yes Day <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Yes Day</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/yesdaymovieposter.jpg?itok=c6ymo08d" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/Y-3Vr8Ut8d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>PAlways feeling like they have to say "no" to their kids, Allison and Carlos decide to give their three kids a "Yes Day," during which the kids have 24 hours to make the rules.</p>
+      </div>
+      
+      <!--Ninth Movie-->
+      <button type="button" class="collapsible">9. 21 Jump Street <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>21 Jump Street</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="http://www.minority-review.com/wp-content/uploads/2012/04/21-jump-street-poster__span.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/RLoKtb4c4W0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+      <div class="ratingContainer"> 
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       
+       <span>Star Rating</span>
+     </div>
+
+        <p>Schmidt and Jenko are high school friends who go on to become police officers. The two friends go undercover as students in order to bust a drug ring and find the source of a synthetic drug.</p>
+        </div>
+      
+      <!--Tenth Movie-->
+      <button type="button" class="collapsible">10. White Chicks <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>White Chicks</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://flxt.tmsimg.com/assets/p34622_p_v10_at.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/aeVkbNka9HM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+
+
+
+     <div class="ratingContainer"> 
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      
+      <span>Star Rating</span>
+    </div>
+        <p>Two disgraced FBI agents, Kevin Copeland and Marcus Copeland, are assigned a new case where they must protect Tiffany and Brittany Wilson, two cruise line heiresses, from getting abducted.</p>
+       </div>
+</section>
+ <!-- end of main section-->
+
+        <footer>
+          <div class="footerContainer">
+            <div class="copyright">
+                <p>&copy; Copyright 2021</p>
+            </div>
+        
+            <div class="socialMedia">
+              <img src="Images/Footer/facebook-icon_24x24.png" alt="facebookIcon" class="socialMediaIcon">
+              <img src="Images/Footer/instagram-icon_24x24.png" alt="igIcon" class="socialMediaIcon">
+              <img src="Images/Footer/twitter-icon_24x24.png" alt="twitterIcon" class="socialMediaIcon">
+              <img src="Images/Footer/youtube-icon_24x24.png" alt="youtubeIcon" class="socialMediaIcon">
+          </div>
+        
+            <div class="footerLinks">
+                <ul>
+                    <div class="contactDetails"><li>Email: picknflix@website.com</li>
+                    <li>Tel: 07654321098</li></div>
+                    <li>Sitemap</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
