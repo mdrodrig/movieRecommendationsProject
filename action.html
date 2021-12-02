@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Action</title>
+     <!--link for style sheet-->
+     <link rel="stylesheet" href="style.css">
+     <script src="app.js"></script>
+     <script src="https://kit.fontawesome.com/a4e85127e8.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  
+  <!--NAV-->
+    <section class="genreHeader">
+      <nav id="container">
+        <a href="index.html"><img src="Images/Pick'n'FlixLogo.png" alt="Pick'n'FlixLogo" id="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li class="mainLinks"><a href="index.html">Home</a></li>
+                <li class="mainLinks"><a href="index.html">About</a></li>
+                <li class="mainLinks"><a href="topMovies.html" class="top10s">Genres</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <header>
+        <h2 class="actionTitle">Top 10 Action Movies</h2>
+    </header>
+  </section>
+
+  <!--JS for responsive menu-->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right = "0";
+  }
+  function hideMenu(){
+      navLinks.style.right = "-200px";
+  }
+</script>
+
+    <!--main content-->
+
+    <section class="genreSection">
+      
+      <!--First Movie-->
+    <button type="button" class="collapsible">1. Kill Bill <i class="fas fa-chevron-down"></i></button>
+    <div class="content">
+      <h3>Kill Bill</h3>
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="Images/Action/KillBill.jpg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/7kSuas6mRpk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>The return of renowned filmmaker Quentin Tarantino after an absence of 6 years. Uma Thurman stars as The Bride, one-fifth of a team of assassins called DiVAS. 
+          When she decides to get married and leave the outfit her boss, Bill (David Carradine), is not a happy man and gets her former colleagues to show up at the wedding; leaving behind a blood bath and The Bride shot in the head. Four years later, The Bride sets out on a journey of revenge which is ultimately to kill her former boss, Bill. The film was due to be three hours long but was split into two films (hence the name) and Volume 2 concludes the story.</p>
+
+      </div>
+      
+    
+
+     <!--Second Movie-->
+     <button type="button" class="collapsible">2. Die Hard <i class="fas fa-chevron-down"></i></button>
+     <div class="content">
+       <h3>Die Hard</h3>
+
+       <div class="innerContainer">
+         <img class="poster-image" width=200 height=300 src="Images/Action/DieHard.jpg" alt="Poster">
+         <iframe width="560" height="300" src="https://www.youtube.com/embed/jaJuwKCmJbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+       
+      <div class="ratingContainer"> 
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+       
+       <span>Star Rating</span>
+     </div>
+
+       <p>In the 1980s, action movies tended to be the preserve of muscle men, chain-gunning their way to body-counts of infinitude. At the decade's close, a TV comedy star and a sci-fi/horror director made an action movie about a regular schmoe in the wrong place at the wrong time... and inadvertently made the greatest action movie of all time.</p>
+      
+     </div>
+     
+     <!--Third Movie-->
+
+     <button type="button" class="collapsible">3. Avengers: Endgame <i class="fas fa-chevron-down"></i></button>
+     <div class="content">
+       <h3>Avengers: Endgame </h3>
+
+       <div class="innerContainer">
+         <img class="poster-image" width=200 height=300 src="Images/Action/AvengersEndgame.jpg" alt="Poster">
+         <iframe width="560" height="300" src="https://www.youtube.com/embed/TcMBFSGVi1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="far fa-star"></i>
+         
+         <span>Star Rating</span>
+       </div>
+
+       <p>Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.</p>
+       </div>
+     
+     <!--Fourth Movie-->
+
+     <button type="button" class="collapsible">4. Police Story <i class="fas fa-chevron-down"></i></button>
+     <div class="content">
+       <h3>Police Story</h3>
+
+       <div class="innerContainer">
+         <img class="poster-image" width=200 height=300 src="Images/Action/PoliceStory.jpg" alt="Poster">
+         <iframe width="560" height="300" src="https://www.youtube.com/embed/EpXMJ3wo0kI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="far fa-star"></i>
+         
+         <span>Star Rating</span>
+       </div>
+
+       <p>A kung-fu policeman (Jackie Chan) must protect a female witness (Brigitte Lin) from a Hong Kong drug lord for whom she used to work.</p>
+      </div>
+
+      <!--Fifth Movie-->
+      
+      <button type="button" class="collapsible">5. Raya and the Last Dragon <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Raya and the Last Dragon</h3>
+
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="Images/Action/Raya.jpg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/1VIZ89FEjYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+      <p>Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. But when sinister monsters known as the Druun threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, those same monsters have returned and it's up to a lone warrior, Raya, to track down the last dragon in order to finally stop the Druun for good. However, along her journey, she'll learn that it'll take more than dragon magic to save the world--it's going to take trust as well.</p>
+      </div>
+      
+      <!--Sixth Movie-->
+
+
+      <button type="button" class="collapsible">6. Saving Private Ryan <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Saving Private Ryan</h3>
+        
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Action/SavingPrivateRyan.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/9CiW_DgxCnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+      <p>Captain John Miller (Tom Hanks) takes his men behind enemy lines to find Private James Ryan, whose three brothers have been killed in combat. Surrounded by the brutal realties of war, while searching for Ryan, each man embarks upon a personal journey and discovers their own strength to triumph over an uncertain future with honor, decency and courage.</p>
+        </div>
+      
+      <!--Seventh Movie-->
+      
+      
+      <button type="button" class="collapsible">7. Skyfall <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Skyfall</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Action/Skyfall.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/6kw1UVovByw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p><p>When James Bond's (Daniel Craig) latest assignment goes terribly wrong, it leads to a calamitous turn of events: Undercover agents around the world are exposed, and MI6 is attacked, forcing M (Judi Dench) to relocate the agency. With MI6 now compromised inside and out, M turns to the one man she can trust: Bond. Aided only by a field agent (Naomie Harris), Bond takes to the shadows and follows a trail to Silva (Javier Bardem), a man from M's past who wants to settle an old score.</p>
+         </div>
+      
+      <!--Eight Movie-->
+      
+      <button type="button" class="collapsible">8. The Matrix <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Matrix </h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Action/matrix.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/vKQi3bBA1y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+      <p>Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life.</p>
+      </div>
+      
+      <!--Ninth Movie-->
+      <button type="button" class="collapsible">9. Leon <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Leon</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Action/leon.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/jawVxq1Iyl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+      <div class="ratingContainer"> 
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+       
+       <span>Star Rating</span>
+     </div>
+
+     <p>After her father, step-mother, step-sister and little brother are killed by her father's employers, the 12-year-old daughter of an abject drug dealer manages to take refuge in the apartment of a professional hitman who at her request teaches her the methods of his job so she can take her revenge on the corrupt DEA agent who ruined her life by killing her beloved brother.</p>
+        </div>
+      
+      <!--Tenth Movie-->
+      
+      <button type="button" class="collapsible">10. The Lord of the Rings: The Return of the King <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3><table>The Lord of the Rings: The Return of the King</table></h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Action/RotK.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/y2rYRu8UW8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+
+     <div class="ratingContainer"> 
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      
+      <span>Star Rating</span>
+    </div>
+
+        <p>The culmination of nearly 10 years' work and conclusion to Peter Jackson's epic trilogy based on the timeless J.R.R. Tolkien classic, "The Lord of the Rings: The Return of the King" presents the final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Hobbits Frodo and Sam reach Mordor in their quest to destroy the `one ring', while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.</p>
+       </div>
+</section>
+ <!-- end of main section-->
+
+
+
+     
+ <footer>
+  <div class="footerContainer">
+    <div class="copyright">
+        <p>&copy; Copyright 2021</p>
+    </div>
+
+    <div class="socialMedia">
+      <img src="Images/Footer/facebook-icon_24x24.png" alt="facebookIcon" class="socialMediaIcon">
+      <img src="Images/Footer/instagram-icon_24x24.png" alt="igIcon" class="socialMediaIcon">
+      <img src="Images/Footer/twitter-icon_24x24.png" alt="twitterIcon" class="socialMediaIcon">
+      <img src="Images/Footer/youtube-icon_24x24.png" alt="youtubeIcon" class="socialMediaIcon">
+  </div>
+
+    <div class="footerLinks">
+        <ul>
+            <div class="contactDetails"><li>Email: picknflix@website.com</li>
+            <li>Tel: 07654321098</li></div>
+            <li>Sitemap</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+</div>
+</footer>
+</body>
+</html>
+

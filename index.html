@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4e85127e8.js" crossorigin="anonymous"></script>
+    <title>Pick 'n' Flix</title>
+ <script src="app.js"></script>
+</head>
+<body>
+
+
+    <!--NAV and header section-->
+    <section class="header">
+        <nav id="container">
+            <a href="index.html"><img src="Images/Pick'n'FlixLogo.png" alt="Pick'n'FlixLogo" id="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="mainLinks"><a href="index.html">Home</a></li>
+                    <li class="mainLinks"><a href="index.html">About</a></li>
+                    <li class="mainLinks"><a href="topMovies.html" class="top10s">Genres</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Pick'n'Flix</h1>
+            <p>
+            We'll choose the film for you.
+            </p>
+             <a href="#mainFeatures" class="hero-btn">IT'S MOVIE TIME
+                 <hr>
+                <i class="fas fa-arrow-circle-down"></i>
+             </a>
+        </div>
+    </section>
+
+<!--JS for responsive menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<!--Main Features Section-->
+
+<section class="mainFeatures" id="mainFeatures">
+
+    <div class="moviePicker">
+        <div class="movieSelection">
+            <p class="neon">Choose a genre and we'll pick the movie for you</p>
+            <form>
+                <hr>
+    
+    <script src="app.js"></script>
+    
+    <select id="movieByGenre">
+    
+        <option value="action"> Action</option>
+        <option value="adventure"> Adventure</option>
+        <option value="comedy"> Comedy</option>
+        <option value="drama"> Drama</option>
+        <option value="horror"> Horror</option>
+        <option value="musicals"> Musicals</option>
+        <option value="romance"> Romance</option>
+        <option value="sci-fi"> Sci-Fi</option>
+        <option value="thriller"> Thriller</option>
+        <option value="anything"> Literally anything</option>
+        
+        </select>
+       <hr id="btnSpace">
+        <input type="button" value="Show me!" onclick="myFunction();">
+        </form>
+        </div>
+        <div class="movieResult">
+        <img id="img1" class="imgcontainer"> 
+            </div>
+    </div>
+
+    <p class="sliderTitle">Other things to check out</p>
+
+    <div class="slideshow-container">
+
+        <div class="slideshow">
+            <a href="#"><img src="Images/Slider/netflix.jpg" alt="netflix on tv"></a>
+            <div class="slideshow-item-text">
+                <h4>Top movies on Netflix right now</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    
+         <div class="slideshow">
+            <a href="#"><img src="Images/Slider/cinemaneon.jpg" alt="neon sign outside cinema"></a>
+            <div class="slideshow-item-text">
+                <h4>Top-rated new releases</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    
+        <div class="slideshow">
+            <a href="#"><img src="Images/Slider/christmas-movies.jpg" alt="poster of numerous Christmas movies"></a>
+            <div class="slideshow-item-text">
+                <h4>Movies to get you in the Christmas spirit</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    
+        <div class="slideshow">
+            <a href="#"><img src="Images/Slider/ldc.jpg" alt="still of Leonardo di Caprio"></a>
+            <div class="slideshow-item-text">
+                <h4>Actor spotlight</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+</body>
+</html>
+
+
+    <!--Contact form and image section-->
+
+    <section class="twoColumns">
+        <div class="columns">
+
+        <div class="formContainer">
+            <div class="contactForm">
+                <h3>Talk to us</h3>
+                <br>
+                <p>Is there a Top 10 list you want us to create or do you have a suggestion about our pages? Tell us about it. We're a new website so we'd love to hear your thoughts! </p>
+                <br>
+                <form id="form">
+                    <p><label for id="nameLabel" class="formQuestions">Your full name</label></p>
+                        <p><input id="name" type="text" placeholder="Name" class="textInput" required></p>
+                        <br>
+                    <p><label for id="emailAddressLabel" class="formQuestions">Your email address</label></p>
+                        <p><input id="emailAddress" type="email" placeholder="@" class="textInput" required></p>
+                    <br>
+                        <p><label for id="formMessageLabel" class="formQuestions">Your message</label></p>
+                        <p><input id="formMessage" type="text" placeholder="Share your thoughts" required></p>
+                        <br>
+                    <button type="submit" value="Submit" id="submit">Submit</button>
+                </form>
+
+                <script>
+                  const form = document.getElementById("form");
+
+                form.addEventListener("submit", (e) => {
+                e.preventDefault();
+
+                console.log("Form has been submitted");
+   
+                });
+                 
+                </script>
+            </div>
+        </div>
+
+
+        <div class="formContainer">
+            <div class="imageQuote">
+                <!--quote and image?-->
+                <h4 id="movieMoment">Movie Moment of the Day</h4>
+                <iframe src="https://giphy.com/embed/5GN0oF3BooWQw" width="750px" height="400px" class="giphy-embed"></iframe></div>
+            </div>
+        </div>
+
+        </div>
+        </section>
+
+<!--Footer-->
+
+<footer>
+    <div class="footerContainer">
+    <div class="copyright">
+        <p>&copy; Copyright 2021</p>
+    </div>
+
+    <div class="socialMedia">
+        <img src="Images/Footer/facebook-icon_24x24.png" alt="facebookIcon" class="socialMediaIcon">
+        <img src="Images/Footer/instagram-icon_24x24.png" alt="igIcon" class="socialMediaIcon">
+        <img src="Images/Footer/twitter-icon_24x24.png" alt="twitterIcon" class="socialMediaIcon">
+        <img src="Images/Footer/youtube-icon_24x24.png" alt="youtubeIcon" class="socialMediaIcon">
+    </div>
+
+    <div class="footerLinks">
+        <ul>
+            <div class="contactDetails"><li>Email: picknflix@website.com</li>
+            <li>Tel: 07654321098</li></div>
+            <li>Sitemap</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+</div>
+</footer>
+
+</body>
+
+
+</html>
