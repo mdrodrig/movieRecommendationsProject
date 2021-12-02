@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Drama</title>
+    <!--link for style sheet-->
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/a4e85127e8.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  <!--NAV-->
+    <section class="genreHeader">
+      <nav id="container">
+        <a href="index.html"><img src="Images/Pick'n'FlixLogo.png" alt="Pick'n'FlixLogo" id="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li class="mainLinks"><a href="index.html">Home</a></li>
+                <li class="mainLinks"><a href="index.html">About</a></li>
+                <li class="mainLinks"><a href="topMovies.html" class="top10s">Genres</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <header>
+        <h2 class="dramaTitle">Top 10 Drama Movies</h2>
+    </header>
+  </section>
+
+  <!--JS for responsive menu-->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right = "0";
+  }
+  function hideMenu(){
+      navLinks.style.right = "-200px";
+  }
+</script>
+    
+  <!--main content-->
+
+    <section class="genreSection">
+    
+    <!--First Movie-->
+    <button type="button" class="collapsible">1. The Help <i class="fas fa-chevron-down"></i></button>
+    <div class="content">
+      <h3>The Help</h3>
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="Images/Drama/theHelp.jpg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/aT9eWGjLv6s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Skeeter, an aspiring author, decides to write a book on African-American maids and the struggles they face on a daily basis.</p>
+
+      </div>
+
+      <!--Second Movie-->
+      <button type="button" class="collapsible">2. Ammonite <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Ammonite</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Drama/ammonite.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/Yd_nsFJAXV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+        
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Mary Anning, an acclaimed fossil hunter, is forced to care for a rich visitor's sick wife, and the two develop an intense bond that forces the two women to re-examine their relationship.</p>
+       
+      </div>
+      
+      <!--Third Movie-->
+      <button type="button" class="collapsible">3. Il Postino <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Il Postino</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Drama/ilPostino.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/SgbbmwHpoAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>Chilean poet Pablo Neruda is deported to an island in Southern Italy, where he befriends his postman. The latter develops a love for poetry and uses it to woo a young woman, Beatrice.</p>
+        </div>
+      
+      <!--Fourth Movie-->
+      <button type="button" class="collapsible">4. Sense and Sensibility <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Sense and Sensibility</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Drama/sands.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/kavQSzH5AWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>After the death of their father, three young girls find themselves in abject poverty. The responsibility to provide for the family lands on the oldest sisters, who are also dealing with heartbreaks.</p>
+       </div>
+      
+      <!--Fifth Movie-->
+      <button type="button" class="collapsible">5. The Shawshank Redemption <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Shawshank Redemption</h3>
+
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="Images/Drama/shawshank.jpg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/NmzuHjWmXOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life imprisonment at the Shawshank prison. He becomes the most unconventional prisoner.</p>
+      </div>
+      
+      <!--Sixth Movie-->
+      <button type="button" class="collapsible">6. Les Miserables <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Les Miserables</h3>
+        
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Drama/lesMis.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/YmvHzCLP6ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Jean Valjean, a prisoner, breaks parole in order to start life anew. He soon becomes the caretaker of a young girl but his past comes back to catch up with him.</p>
+        </div>
+      
+      <!--Seventh Movie-->
+      <button type="button" class="collapsible">7. Matchstick Men <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Matchstick Men</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Drama/MatchstickMen.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/WgsmEhnIy7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>Roy is a con man who is about to work on a huge job with his partner Frank. However, his life takes an unexpected turn when his estranged daughter Angela tells him to mend his ways.</p>
+         </div>
+      
+      <!--Eight Movie-->
+      <button type="button" class="collapsible">8. The Green Mile <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Green Mile</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Drama/greenMile.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/Ki4haFrqSrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Paul, the head guard of a prison, meets an inmate, John, an African American who is accused of murdering two girls. His life changes drastically when he discovers that John has a special gift.</p>
+      </div>
+      
+      <!--Ninth Movie-->
+      <button type="button" class="collapsible">9. The Remains of the Day <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Remains of the Day</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Drama/remainsOfTheDay.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/n_ap4Czeo4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+      <div class="ratingContainer"> 
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+       
+       <span>Star Rating</span>
+     </div>
+
+        <p>James Stevens, a loyal butler to Lord Darlington, grows apprehensive when his master reveals himself to be a Nazi sympathiser prior to the outbreak of World War II.</p>
+        </div>
+      
+      <!--Tenth Movie-->
+      <button type="button" class="collapsible">10. Slumdog Millionaire <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Slumdog Millionaire</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Drama/slumdog.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/AIzbwV7on6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+
+
+
+     <div class="ratingContainer"> 
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      
+      <span>Star Rating</span>
+    </div>
+
+        <p>A teenager from the slums of Mumbai becomes a contestant on the show 'Kaun Banega Crorepati?' When interrogated under suspicion of cheating, he revisits his past, revealing how he had all the answers.</p>
+       </div>
+</section>
+ <!-- end of main section-->
+
+        <footer>
+          <div class="footerContainer">
+            <div class="copyright">
+                <p>&copy; Copyright 2021</p>
+            </div>
+        
+            <div class="socialMedia">
+              <img src="Images/Footer/facebook-icon_24x24.png" alt="facebookIcon" class="socialMediaIcon">
+              <img src="Images/Footer/instagram-icon_24x24.png" alt="igIcon" class="socialMediaIcon">
+              <img src="Images/Footer/twitter-icon_24x24.png" alt="twitterIcon" class="socialMediaIcon">
+              <img src="Images/Footer/youtube-icon_24x24.png" alt="youtubeIcon" class="socialMediaIcon">
+          </div>
+        
+            <div class="footerLinks">
+                <ul>
+                    <div class="contactDetails"><li>Email: picknflix@website.com</li>
+                    <li>Tel: 07654321098</li></div>
+                    <li>Sitemap</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
+
