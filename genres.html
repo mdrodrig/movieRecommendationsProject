@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genres</title>
+    <script src="https://kit.fontawesome.com/a4e85127e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+
+        <!--Nav-->
+        <nav id="container">
+            <a href="index.html"><img src="Images/Pick'n'FlixLogo.png" alt="Pick'n'FlixLogo" id="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="mainLinks"><a href="index.html">Home</a></li>
+                    <li class="mainLinks"><a href="index.html">About</a></li>
+                    <li class="mainLinks"><a href="#" class="top10s">Genres</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!--JS for responsive menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+    <!--main content-->
+<div class="topMoviesTitle">
+        <h1>What genre are you feeling today?</h1>
+</div>
+
+    <div class="genreContainer">
+        <div class="gridCell" id="box1">
+            <a href="action.html"><button>Action 🔫💥</button></a>
+        </div>
+        <div class="gridCell" id="box2">
+            <a href="#"><button>Adventure 🌏⛰️</button></a>
+        </div>
+        <div class="gridCell" id="box3">
+            <a href="comedy.html"><button>Comedy 🤣🥸</button></a>
+        </div>
+        <div class="gridCell" id="box4">
+            <a href="drama.html"><button>Drama 🎭🥀</button></a>
+        </div>
+        <div class="gridCell" id="box5">
+            <a href="horror.html"><button>Horror 😱👻</button></a>
+        </div>
+        <div class="gridCell" id="box6">
+            <a href="mystery.html"><button>Mystery 🔍🕵️</button></a>
+        </div>
+        <div class="gridCell" id="box6">
+            <a href="romance.html"><button>Romance ❤️🌹</button></a>
+        </div>
+        <div class="gridCell" id="box7">
+            <a href="#"><button>Sci-Fi 👽🛸</button></a>
+        </div>
+        <div class="gridCell" id="box8">
+            <a href="thriller.html"><button>Thriller 😨🩸</button></a>
+        </div>
+        </div> 
+      </div>
+
+    </section>
+    <!--Footer-->
+
+<footer>
+    <div class="footerContainer">
+    <div class="copyright">
+        <p>&copy; Copyright 2021</p>
+    </div>
+
+    <div class="socialMedia">
+        <img src="Images/Footer/facebook-icon_24x24.png" alt="facebookIcon" class="socialMediaIcon">
+        <img src="Images/Footer/instagram-icon_24x24.png" alt="igIcon" class="socialMediaIcon">
+        <img src="Images/Footer/twitter-icon_24x24.png" alt="twitterIcon" class="socialMediaIcon">
+        <img src="Images/Footer/youtube-icon_24x24.png" alt="youtubeIcon" class="socialMediaIcon">
+    </div>
+
+    <div class="footerLinks">
+        <ul>
+            <div class="contactDetails"><li>Email: picknflix@website.com</li>
+            <li>Tel: 07654321098</li></div>
+            <li>Sitemap</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+</div>
+</footer>
+</body>
+</html>
