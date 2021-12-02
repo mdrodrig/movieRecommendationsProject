@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <!--Link for star rating-->
+    <script src="https://kit.fontawesome.com/a4e85127e8.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  <!--NAV-->
+    <section class="genreHeader">
+      <nav id="container">
+        <a href="index.html"><img src="Images/Pick'n'FlixLogo.png" alt="Pick'n'FlixLogo" id="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li class="mainLinks"><a href="index.html">Home</a></li>
+                <li class="mainLinks"><a href="index.html">About</a></li>
+                <li class="mainLinks"><a href="topMovies.html" class="top10s">Genres</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <header>
+        <h2 class="genreTitle">Top 10 Horror Movies</h2>
+    </header>
+  </section>
+
+  <!--JS for responsive menu-->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right = "0";
+  }
+  function hideMenu(){
+      navLinks.style.right = "-200px";
+  }
+</script>
+    
+  <!--main content-->
+
+    <section class="genreSection">
+    
+    <!--First Movie-->
+    <button type="button" class="collapsible">1. The Exorcist <i class="fas fa-chevron-down"></i></button>
+    <div class="content">
+      <h3>The Exorcist</h3>
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="Images/Horror/exorcist.jpg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/YDGw1MTEe9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Regan, a young girl, displays bizarre behaviour after playing with a Ouija board. Chris, her mother and an actress, consults two priests who conclude that Regan is possessed by a demonic entity.</p>
+
+      </div>
+
+      <!--Second Movie-->
+      <button type="button" class="collapsible">2. Sinister <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Sinister</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Horror/sinister.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/_kbQAJR9YWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+        
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>True crime novelist Ellison Oswald (Ethan Hawke) is so desperate to repeat the success of his first book that he moves his family into a home that served as the setting of a brutal murder. But instead of inspiration, Ellison finds a box of mysterious home movies in the attic that seem to point to unspeakable terrors — ones that could threaten his entire family.</p>
+       
+      </div>
+      
+      <!--Third Movie-->
+      <button type="button" class="collapsible">3. The Conjuring <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Conjuring</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Horror/Conjuring_poster.jpeg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/ejMMn0t58Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>In 1970, paranormal investigators and demonologists Lorraine (Vera Farmiga) and Ed (Patrick Wilson) Warren are summoned to the home of Carolyn (Lili Taylor) and Roger (Ron Livingston) Perron. The Perrons and their five daughters have recently moved into a secluded farmhouse, where a supernatural presence has made itself known. Though the manifestations are relatively benign at first, events soon escalate in horrifying fashion, especially after the Warrens discover the house's macabre history.</p>
+        </div>
+      
+      <!--Fourth Movie-->
+      <button type="button" class="collapsible">4. Hereditary <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Hereditary</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Horror/hereditary.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/V6wWKNij_1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>After the death of their father, three young girls find themselves in abject poverty. The responsibility to provide for the family lands on the oldest sisters, who are also dealing with heartbreaks.</p>
+       </div>
+      
+      <!--Fifth Movie-->
+      <button type="button" class="collapsible">5. Insidious <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Insidious</h3>
+
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="Images/Horror/insidious.jpeg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/zuZnRUcoWos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Josh and Renai move to a new house, seeking a fresh start. However, when their son, Dalton, mysteriously falls into a coma, paranormal events start occurring in the house.</p>
+      </div>
+      
+      <!--Sixth Movie-->
+      <button type="button" class="collapsible">6. Paranormal Activity <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Paranormal Activity</h3>
+        
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Horror/paranormal.jpeg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/F_UxLEqd074" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>You demanded it and now the surprise hit critics call “one of the scariest movies of all time”* can be experienced in the most terrifying place of all…your home. After a young, middle-class couple moves into what seems like a typical suburban house, they become increasingly disturbed by a presence that may or may not be demonic but is certainly most active in the middle of the night. Especially while they sleep. Paranormal Activity builds suspense all the way to the shocking ending.</p>
+        </div>
+      
+      <!--Seventh Movie-->
+      <button type="button" class="collapsible">7. The Descent <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Descent</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Horror/descent.jpeg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/CSYg7Z1KS_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>One year after a tragic accident, six girlfriends meet in a remote part of the Appalachians for their annual caving trip. Deep below the surface of the earth, disaster strikes when a rock falls and blocks their route back to the surface. The group splinters and each one pushes on, praying for another exit. But there is something else lurking under the earth — a race of monstrous humanoid creatures that have adapted perfectly to life in the dark. As the friends realize they are now prey, they are forced to unleash their most primal instincts in an all-out war against an unspeakable horror — one that attacks without warning, again and again and again.</p>
+         </div>
+      
+      <!--Eight Movie-->
+      <button type="button" class="collapsible">8. The Ring <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Ring</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Horror/ring.jpeg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/yzR2GY-ew8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Paul, the head guard of a prison, meets an inmate, John, an African American who is accused of murdering two girls. His life changes drastically when he discovers that John has a special gift.</p>
+      </div>
+      
+      <!--Ninth Movie-->
+      <button type="button" class="collapsible">9. It <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>It</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Horror/it.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/hAUTdjf9rko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+      <div class="ratingContainer"> 
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+       
+       <span>Star Rating</span>
+     </div>
+
+        <p>Seven helpless and bullied children are forced to face their worst nightmares when Pennywise, a shape-shifting clown, reappears. The clown, an ancient evil torments children before feeding on them.</p>
+        </div>
+      
+      <!--Tenth Movie-->
+      <button type="button" class="collapsible">10. A Quiet PLace <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>A Quiet Place</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="Images/Horror/quiet.jpeg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/WR7cc5t7tv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+
+
+
+     <div class="ratingContainer"> 
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      
+      <span>Star Rating</span>
+    </div>
+
+        <p>A teenager from the slums of Mumbai becomes a contestant on the show 'Kaun Banega Crorepati?' When interrogated under suspicion of cheating, he revisits his past, revealing how he had all the answers.</p>
+       </div>
+</section>
+ <!-- end of main section-->
+
+        <footer>
+          <div class="footerContainer">
+            <div class="copyright">
+                <p>&copy; Copyright 2021</p>
+            </div>
+        
+            <div class="socialMedia">
+              <img src="Images/Footer/facebook-icon_24x24.png" alt="facebookIcon" class="socialMediaIcon">
+              <img src="Images/Footer/instagram-icon_24x24.png" alt="igIcon" class="socialMediaIcon">
+              <img src="Images/Footer/twitter-icon_24x24.png" alt="twitterIcon" class="socialMediaIcon">
+              <img src="Images/Footer/youtube-icon_24x24.png" alt="youtubeIcon" class="socialMediaIcon">
+          </div>
+        
+            <div class="footerLinks">
+                <ul>
+                    <div class="contactDetails"><li>Email: picknflix@website.com</li>
+                    <li>Tel: 07654321098</li></div>
+                    <li>Sitemap</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
+
