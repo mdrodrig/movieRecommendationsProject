@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <!--Link for star rating-->
+    <script src="https://kit.fontawesome.com/a4e85127e8.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  <!--NAV-->
+    <section class="genreHeader">
+      <nav id="container">
+        <a href="index.html"><img src="Images/Pick'n'FlixLogo.png" alt="Pick'n'FlixLogo" id="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li class="mainLinks"><a href="index.html">Home</a></li>
+                <li class="mainLinks"><a href="index.html">About</a></li>
+                <li class="mainLinks"><a href="topMovies.html" class="top10s">Genres</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <header>
+        <h2 class="genreTitle">Top 10 Romance Movies</h2>
+    </header>
+  </section>
+
+  <!--JS for responsive menu-->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right = "0";
+  }
+  function hideMenu(){
+      navLinks.style.right = "-200px";
+  }
+</script>
+    
+  <!--main content-->
+
+    <section class="genreSection">
+    
+    <!--First Movie-->
+    <button type="button" class="collapsible">1. Good on Paper <i class="fas fa-chevron-down"></i></button>
+    <div class="content">
+      <h3>Good on Paper</h3>
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="https://m.media-amazon.com/images/M/MV5BZmJmZTk0Y2MtY2QyZS00YjI0LWI3MmMtZDI5ZTUwYjA4NWFjXkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_.jpg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/z_-_hIuE1YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>After years of putting her career ahead of love, stand-up comic Andrea Singer stumbles upon the perfect guy. On paper, Dennis checks all the boxes, but Andrea's friend, Margot, is convinced he's not all he appears to be.</p>
+
+      </div>
+
+      <!--Second Movie-->
+      <button type="button" class="collapsible">2. Resort to love <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Resort to love</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://m.media-amazon.com/images/M/MV5BZjhhN2RhNGMtM2VkYS00MjkwLTg4M2MtOWQ2ZTE2NTg0MTBmXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/6fcnG6-L4Cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+        
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>In the wake of a career meltdown, aspiring pop star Erica lands a gig at her ex-fiance's wedding at a luxurious island resort. She soon rediscovers her feelings for him as she tries to keep their past relationship a secret from his bride-to-be.</p></h4>
+       
+      </div>
+      
+      <!--Third Movie-->
+      <button type="button" class="collapsible">3. Trust <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Trust</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://m.media-amazon.com/images/M/MV5BYjJlZDI4NTYtYjQzMi00ZmM0LWIxZDEtMzgwNTBjYjc4MTZlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/tnr9frEhy7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>When art gallery owner Brooke signs a handsome painter with an affinity for married women, the attraction between them is unmistakable. Left alone at home, her husband, Owen, soon finds comfort at a bar with a seductive and beautiful journalist. On once unshakable footing, Brooke and Owen's trust begins to dissolve as they unwittingly push each other toward the very thing they fear most.</p></h4>
+        </div>
+      
+      <!--Fourth Movie-->
+      <button type="button" class="collapsible">4. The Last Letter from Your Lover <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Last Letter from Your Lover</h3>
+
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Last_Letter_From_Your_Lover_Poster.jpg/220px-Last_Letter_From_Your_Lover_Poster.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/em8H01Il11g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>fter finding a trove of love letters from the 1960s, a journalist sets out to solve the mystery of a secret affair.</p>
+       </div>
+      
+      <!--Fifth Movie-->
+      <button type="button" class="collapsible">5. To All the Boys: Always and Forever <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>To All the Boys: Always and Forever</h3>
+
+      <div class="innerContainer">
+        <img class="poster-image" width=200 height=300 src="http://images6.fanpop.com/image/photos/43700000/To-All-The-Boys-Always-And-Forever-Poster-netflix-43795906-640-1000.jpg" alt="Poster">
+        <iframe width="560" height="300" src="https://www.youtube.com/embed/2jPdejek5QA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>In the wake of a career meltdown, aspiring pop star Erica lands a gig at her ex-fiance's wedding at a luxurious island resort. She soon rediscovers her feelings for him as she tries to keep their past relationship a secret from his bride-to-be.</p></h4>
+      </div>
+      
+      <!--Sixth Movie-->
+      <button type="button" class="collapsible">6. Legally Blonde <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Legally Blonde</h3>
+        
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://occ-0-2794-2218.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABWI8vsJO2mBxMtk3H_S3-UNUv36nVLurGDtifLPEez-N92gbX7pbzqIj4IqYLOfGbHLDDVIwCgwvghrsrt2hy4p3gGv2.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/Phm3lpdR3_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>Elle's boyfriend breaks up with her for a smarter girl as he plans to become a politician and joins Harward law school. Elle gets enrolled in the same school in an effort to teach him a lesson.</p>
+        </div>
+      
+      <!--Seventh Movie-->
+      <button type="button" class="collapsible">7. The Notebook <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>The Notebook</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_FMjpg_UX1000_.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/FC6biTjEyZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratingContainer"> 
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          
+          <span>Star Rating</span>
+        </div>
+
+        <p>Duke reads the story of Allie and Noah, two lovers who were separated by fate, to Ms Hamilton, an old woman who suffers from dementia, on a daily basis out of his notebook.</p>
+         </div>
+      
+      <!--Eight Movie-->
+      <button type="button" class="collapsible">8. Tall Girl  <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Tall Girl </h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://m.media-amazon.com/images/M/MV5BMDI3YmEwOTItNDEyNC00MGNlLWJiMjEtMzc0MTJjZmM1NGEzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/NfpXeLVzJIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+       <div class="ratingContainer"> 
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        
+        <span>Star Rating</span>
+      </div>
+
+        <p>When the tallest girl in high school falls for a handsome foreign exchange student, she becomes embroiled in a surprising love triangle and realizes she's far more than her insecurities about her height have led her to believe.</p>
+      </div>
+      
+      <!--Ninth Movie-->
+      <button type="button" class="collapsible">9. Me Before You <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Me Before You</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://m.media-amazon.com/images/M/MV5BMTQ2NjE4NDE2NV5BMl5BanBnXkFtZTgwOTcwNDE5NzE@._V1_.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/Eh993__rOxA" allowfullscreen></iframe>
+        </div>
+
+
+      <div class="ratingContainer"> 
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       
+       <span>Star Rating</span>
+     </div>
+
+        <p>After becoming unemployed, Louisa Clark is forced to accept one which requires her to take care of Will Traynor, a paralysed man. The two of them soon bond with each other.</p>
+        </div>
+      
+      <!--Tenth Movie-->
+      <button type="button" class="collapsible">10. Clueless <i class="fas fa-chevron-down"></i></button>
+      <div class="content">
+        <h3>Clueless</h3>
+        <div class="innerContainer">
+          <img class="poster-image" width=200 height=300 src="https://m.media-amazon.com/images/M/MV5BMzBmOGQ0NWItOTZjZC00ZDAxLTgyOTEtODJiYWQ2YWNiYWVjXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg" alt="Poster">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/Mgjwq1ZzdPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+
+
+
+     <div class="ratingContainer"> 
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      
+      <span>Star Rating</span>
+    </div>
+        <p>her is a rich high-school student who is learning to cope with adolescence and its problems. She also helps a new student gain popularity and in the process discovers her own feelings for someone.</p>
+       </div>
+    </div>
+</section>
+ <!-- end of main section-->
+
+        <footer>
+          <div class="footerContainer">
+            <div class="copyright">
+                <p>&copy; Copyright 2021</p>
+            </div>
+        
+            <div class="socialMedia">
+              <img src="Images/Footer/facebook-icon_24x24.png" alt="facebookIcon" class="socialMediaIcon">
+              <img src="Images/Footer/instagram-icon_24x24.png" alt="igIcon" class="socialMediaIcon">
+              <img src="Images/Footer/twitter-icon_24x24.png" alt="twitterIcon" class="socialMediaIcon">
+              <img src="Images/Footer/youtube-icon_24x24.png" alt="youtubeIcon" class="socialMediaIcon">
+          </div>
+
+                <ul>
+                    <div class="contactDetails"><li>Email: picknflix@website.com</li>
+                    <li>Tel: 07654321098</li></div>
+                    <li>Sitemap</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
