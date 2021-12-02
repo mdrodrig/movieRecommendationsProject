@@ -1,3 +1,3 @@
 # movieRecommendationsProject
-Code First Girls final project
-Over 4 weeks, we developed this movie recommendations website. 
+<h2>Code First Girls final project</h2>
+<p>Over the duration of 4 weeks, we developed this movie recommendations website. This website was designed for someone looking to get a quick-fire decision on what film to watch. There is a movie picker feature which enables the user to pick a genre (including an 'anything' option) and a movie will be generated for them. The website was designed for users to spend as little time on it as possible. There is a Genre page which allows the user to click into any genre of movie. Within these pages are top 10 movie recommendations. Again, these were designed to be for a quick glance. For users that want more information on each movie, they can click into the collapsible buttons where they will find an embedded YouTube trailer, a star rating and a small blurb on the film.</p>
